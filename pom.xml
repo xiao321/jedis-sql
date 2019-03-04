@@ -69,19 +69,6 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>dida-releases</id>
-            <name>dida-releases</name>
-            <url>http://maven.didapinche.com:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>dida-snapshots</id>
-            <name>dida-snapshots</name>
-            <url>http://maven.didapinche.com:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <plugin>

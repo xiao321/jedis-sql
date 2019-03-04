@@ -10,7 +10,7 @@ GenericObjectPoolConfig genericObjectPoolConfig = new GenericObjectPoolConfig();
 genericObjectPoolConfig.setMaxIdle(1);
 genericObjectPoolConfig.setMinIdle(1);
 genericObjectPoolConfig.setMaxWaitMillis(-1);
-JedisPool jedisPool = new JedisPool(genericObjectPoolConfig, "192.168.199.94", 6379);
+JedisPool jedisPool = new JedisPool(genericObjectPoolConfig, "127.0.0.1", 6379);
 Jedis jedis = jedisPool.getResource();
 
 //jedis.createDatabase("asteria");
@@ -27,3 +27,6 @@ list.forEach(value -> {
     });
 });
 ```
+
+## 编译方法
+mvn clean pacage -Dmvn.test.skip=true
