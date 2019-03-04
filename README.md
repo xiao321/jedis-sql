@@ -4,6 +4,8 @@ jedis source code:
 https://github.com/xetorthio/jedis
 
 ## 使用说明
+
+```java
 GenericObjectPoolConfig genericObjectPoolConfig = new GenericObjectPoolConfig();
 genericObjectPoolConfig.setMaxIdle(1);
 genericObjectPoolConfig.setMinIdle(1);
@@ -24,3 +26,4 @@ list.forEach(value -> {
         }
     });
 });
+```
