@@ -2,6 +2,8 @@
 jedis-sql 在jedis基础上修改完成。
 jedis source code:
 https://github.com/xetorthio/jedis
+redis sql source code:
+https://github.com/RedBeardLab/rediSQL
 
 ## 使用说明
 
